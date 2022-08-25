@@ -1,0 +1,68 @@
+/* --- root --- */
+
+/* --- reset --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* --- base --- */
+
+body {
+  /*font-family: ;*/
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* --- component --- */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  /*
+  padding-top: 94px;
+  padding-bottom: 94px;
+  */
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+
+  /*outline: 2px dashed red;
+  outline-offset: -2px;*/
+}
+
+.footer {
+  width: 1200px;
+  background-image: url("/images/bgr.footer-fruit.futer.jpg");
+}
